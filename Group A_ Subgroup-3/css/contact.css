@@ -1,0 +1,30 @@
+.web-form {
+    background: #fff;
+    padding: 30px;                 
+    border-radius: 12px;           
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);  /* depth */
+
+    max-width: 600px;              /* keeps form neat */
+    margin: 40px auto;             
+
+    border-top: 5px solid var(--accent-color);
+    border-left: 5px solid var(--accent-color);
+}
+/* FORM MESSAGE STYLES  */
+.success { 
+    color: green; 
+    padding: 10px; 
+    border: 1px solid green; 
+    background: #eaffea; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.error { 
+    color: red; 
+    padding: 10px; 
+    border: 1px solid red; 
+    background: #ffeaea; 
+    margin-top: 10px;
+    border-radius: 5px;
+}

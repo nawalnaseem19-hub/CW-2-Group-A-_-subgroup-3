@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Stay | New Hotel Highway And Lodge</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="logo-container">
+            <h1>New Hotel Highway & Lodge</h1>
+        </div>
+        <nav class="main-nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link active" aria-current="page">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <section id="booking-section" class="container">
+            <h2>Make a Reservation</h2>
+            <p>Please fill out the form below to book your stay or make an enquiry.</p>
+
+            <form id="booking-form" class="web-form" novalidate>
+                
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="e.g. John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-date">Check-in Date:</label>
+                    <input type="date" id="booking-date" name="booking-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guest-count">Number of Guests:</label>
+                    <input type="number" id="guest-count" name="guest-count" min="1" max="10" value="1">
+                </div>
+
+                <div class="form-group">
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+                </div>
+
+                <button type="submit" id="btn-submit" class="btn btn-submit">Confirm Booking</button>
+            </form>
+
+            <div id="form-feedback" class="feedback-container" aria-live="polite"></div>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Follow us on Facebook">Facebook</a> | 
+                <a href="#" class="social-icon" aria-label="Follow us on Instagram">Instagram</a> | 
+                <a href="#" class="social-icon" aria-label="Follow us on Twitter">Twitter</a>
+            </div>
+            <p>&copy; 2026 New Hotel Highway And Lodge. All rights reserved.</p>
+            <address>
+                123 Roadside Way, London Campus Area | 
+                Phone: 020 1234 5678
+            </address>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
